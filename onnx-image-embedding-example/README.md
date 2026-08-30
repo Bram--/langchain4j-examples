@@ -17,8 +17,7 @@ Because both towers project into one shared vector space, embeddings from either
 ## Prerequisites
 
 This example needs the version of `langchain4j-embeddings` that ships `OnnxImageEmbeddingModel`, `ImagePreprocessorConfig`,
-and the CLIP-capable `OnnxEmbeddingModel` (langchain4j PR #4593). Update `langchain4j.version` in `pom.xml` to the first
-release that contains them (e.g. `1.20.0`).
+and the CLIP-capable `OnnxEmbeddingModel` (langchain4j PR #4593). 
 
 ## Getting the model files
 
@@ -38,9 +37,6 @@ The example indexes every image in a folder. Either:
 
 - put `.png`/`.jpg` files in `src/main/resources/images`, or
 - point at your own folder: `-DimageDir=/path/to/folder/of/images`.
-
-A good free source of test images is [Google's Open Images](https://storage.googleapis.com/openimages/web/index.html);
-several photos of cats and sports cars will show off the cross-modal search nicely.
 
 ## Run it
 

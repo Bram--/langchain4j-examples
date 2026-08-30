@@ -13,12 +13,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <!--
-          This example needs the version of langchain4j-embeddings that ships
-          OnnxImageEmbeddingModel and ImagePreprocessorConfig (langchain4j PR #4593).
-          Bump this to the first release that contains them, e.g. 1.20.0.
-        -->
-        <langchain4j.version>1.20.0</langchain4j.version>
+        <langchain4j.version>1.19.0-beta29</langchain4j.version>
     </properties>
 
     <dependencies>

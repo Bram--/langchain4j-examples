@@ -174,8 +174,7 @@ public class ImageSearchExample {
                 // fall through to the working directory
             }
         }
-        // No classpath folder with images: look in the working directory and let collectImages()
-        // report clearly if nothing is found there either.
+
         return ".";
     }
 
